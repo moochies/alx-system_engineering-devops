@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #using pupper to make changes in configuration file
 
-file { 'etc/sh/ssh_config':
+file { 'ect/sh/ssh_cofig':
 	ensure => present.
 
 content =>"
