@@ -1,8 +1,3 @@
 #!/usr/bin/env bash
-REMOTE_USER="ubuntu"
-REMOTE_HOST="100.25.117.167"
-PRIVATE_KEY=~/.ssh/school
-SSH_COMMAND="ssh $REMOTE_USER@$REMOTE_HOST -i $PRIVATE_KEY"
-
-$SSH_COMMAND
-# ssh ubuntu@100.25.117.167 -i ~/.ssh/school
+#using ssh to connect to server
+ssh ubuntu -i ~/.ssh/school
